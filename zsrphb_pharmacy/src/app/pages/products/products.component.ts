@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ProductObjects } from '../../shared/constants/product-constants';
+import { ProductObjects } from '../../shared/constants/product-constants-default';
 @Component({
   selector: 'app-products',
   templateUrl: './products.component.html',
