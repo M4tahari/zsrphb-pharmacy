@@ -1,0 +1,49 @@
+<div class="content">
+    <h1>Gyakran ismételt kérdések</h1>
+</div>
+
+<div class="break"></div>
+
+<div *ngIf="comments.length">
+    <table class="content">
+        <tr>
+            <th>Felhasználó</th>
+            <th>Kérdés</th>
+            <th>Dátum</th>
+        </tr>
+
+        <tr *ngFor="let comment of comments; let i = index" [ngClass]="i % 2 === 0 ? 'questions-even' : 'questions-odd'">
+            <td>{{comment.username | bigInitialUsername}}</td>
+            <td>{{comment.question}}</td>
+            <td>{{comment.date | dateFormat}}</td>
+        </tr>
+    </table>
+</div>
+
+<div class="break"></div>
+<br/>
+
+<form [formGroup]="commentsForm" (ngSubmit)="addComment()">
+    <mat-form-field>
+        <mat-label for="username">Felhasználónév: </mat-label>
+        <input matInput type="text" formControlName="username"/>
+    </mat-form-field>
+
+    <div class="break"></div>
+    <br/>
+    
+    <mat-form-field>
+        <mat-label for="question">Kérdés: </mat-label>
+        <textarea matInput rows="15" cols="60" formControlName="question"></textarea>
+    </mat-form-field>
+    
+    <div class="break"></div>
+    <br/>
+    
+    <div>
+        <button mat-raised-button color="primary" type="submit">Kérdés elküldése</button>
+    </div>
+</form>
+
+
+

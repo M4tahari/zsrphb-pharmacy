@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "zsrphb-pharmacy": {
+      "hosting": {
+        "zsrphb-pharmacy": [
+          "zsrphb-pharmacy"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "zsrphb-pharmacy"
+  }
+}

@@ -1,0 +1,38 @@
+.shown-product {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    margin-left:35%;
+    margin-top:3vh;
+    width: 30%;
+    height: auto;
+    background-color: white;
+}
+
+.shown-image {
+    width: 100%;
+    height: auto;
+    align-self:center;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.product-data {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3vh;
+    margin-bottom: 2vh;
+    margin-left: 1vh;
+    background-color: white;
+}
+
+mat-card {
+    width: 100%;
+    height: auto;
+    align-self:center;
+}

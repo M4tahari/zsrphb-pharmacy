@@ -1,0 +1,26 @@
+.div-flex {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top:10vh;
+    height: 100%;
+}
+
+.main-component {
+    height:100vh;
+}
+
+form div {
+    padding: 1vh 1vh 1vh 1vh;
+}
+
+form {
+    display: inline-grid;
+    width:50%;
+    align-self:center;
+}
+
+span {
+    padding: 2vh 2vh 2vh 2vh;
+}

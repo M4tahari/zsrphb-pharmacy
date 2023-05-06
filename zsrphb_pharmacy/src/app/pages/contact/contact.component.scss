@@ -1,0 +1,21 @@
+.div-flex {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 80%;
+}
+
+.main-component {
+    height:100vh;
+}
+
+mat-card-header {
+    display: initial;
+}
+
+mat-card {
+    width: 80%;
+    height: 80%;
+    align-self: center;
+}

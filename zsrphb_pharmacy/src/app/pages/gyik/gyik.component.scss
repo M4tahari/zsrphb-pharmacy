@@ -1,0 +1,31 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.questions-even {
+    background-color: darkslategrey;
+    color:lightgrey;
+}
+
+.questions-odd {
+    background-color: white;
+}
+
+form {
+    width:100%;
+    text-align:center;
+}
+
+.content {
+    width:100%;
+    text-align:center;
+}
+
+mat-form-field {
+    width:50%;
+}

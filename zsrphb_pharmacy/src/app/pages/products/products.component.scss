@@ -1,0 +1,24 @@
+.products {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top:10vh;
+    margin-bottom:10vh;
+}
+
+.productImages {
+    width:auto;
+    height:auto;
+    margin-left:1vh;
+    margin-right:1vh;
+}
+
+.productNames, .productNums, .productPrices > td {
+    text-align: left;
+    width:10vh;
+    margin-left:2vh;
+    background-color: white;
+    font-weight: bold;
+}

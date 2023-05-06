@@ -1,0 +1,7 @@
+<div class="selection-list">
+    <mat-form-field>
+        <mat-select (selectionChange)="choose()" [(ngModel)]="chosenProduct">
+            <mat-option *ngFor="let obj of offerObjectInput" [value]="obj">{{obj.id}}</mat-option>
+        </mat-select>
+    </mat-form-field>
+</div>

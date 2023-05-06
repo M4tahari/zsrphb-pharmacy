@@ -1,0 +1,14 @@
+.selection-list {
+    width: 30%;
+    margin-left: 35%;
+    align-self:center;
+    align-items: center;
+    font-size: 5vh;
+    margin-top:3vh;
+    background-color: white;
+}
+
+mat-form-field, mat-select, mat-option {
+    width: 100%;
+    font-size: 3vh;
+}

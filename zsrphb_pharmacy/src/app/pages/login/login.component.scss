@@ -1,0 +1,46 @@
+div {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+
+.main-component {
+    height:100vh;
+    align-items:center;
+}
+
+span {
+    padding: 2vh 2vh 2vh 2vh;
+}
+
+mat-form-field {
+    width:50%;
+}
+
+.loading-spinner {
+    position: fixed;
+    z-index: 1000;
+    height: 1em;
+    width: 1em;
+    overflow: show;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.loading-spinner::before {
+    content:'';
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
